@@ -1,0 +1,174 @@
+* {
+  font-size: 9px;
+  font-family: "Lucida Grande", sans-serif;
+}
+
+#query {
+  position: absolute;
+  border-right: 1px solid #ddd;
+  width: 230px;
+  height: 240px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#results {
+  position: absolute;
+  top: 240px;
+  width: 240px;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.result {
+  border-bottom: 1px solid #ddd;
+  width: 215px;
+  height: 73px;
+  overflow: hidden;
+  padding: 5px 5px 5px 5px;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.heading {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/*.title:before {*/
+/*content: "\2026"*/
+/*}*/
+
+#tableContainer {
+  right: 0;
+  left: 240px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow-x: auto;
+}
+
+table {
+  margin: 10px;
+  table-layout: fixed;
+  width: 940px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid #ddd;
+  height: 75px;
+  width: 65px;
+}
+
+#day {
+  width: 15px;
+}
+
+th.day {
+  text-align: center;
+}
+
+td > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slot, .filled, .onlyone {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  width: 61px;
+  padding: 2px;
+  position: relative;
+  left: -1px;
+  top: -1px;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: verdana, sans-serif;
+}
+
+.slot {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: none;
+  opacity: .8;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  /*font-weight: bold;*/
+}
+
+.filled {
+  display: block;
+  /*font-weight: bold;*/
+  margin-bottom: 1px;
+
+}
+
+.onlyone {
+  background-color: #888 !important;
+}
+
+.color0 {
+  background-color: darkgoldenrod;
+}
+
+.color1 {
+  background-color: firebrick;
+}
+
+.color2 {
+  background-color: darkblue;
+}
+
+.color3 {
+  background-color: darkorange;
+}
+
+.color4 {
+  background-color: darkviolet;
+}
+
+.color5 {
+  background-color: darkmagenta;
+}
+
+.color6 {
+  background-color: darkslateblue;
+}
+
+.color7 {
+  background-color: seagreen;
+}
+
+.color8 {
+  background-color: green;
+}
+
+.color9 {
+  background-color: darkcyan;
+}
+
+.color10 {
+  background-color: royalblue;
+}
